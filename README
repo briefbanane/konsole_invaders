@@ -1,0 +1,39 @@
+See LICENSE to get more information about the license with which this program comes.
+
+Installation:
+	1.Uncompress the archive you downloaded.
+	2.Open a terminal.
+	3.Change into the directory where you uncompressed the archive and where the makefile is.
+	4.Type make
+	5.Start it with ./konsole_invaders
+
+Controls:
+	1.Arrow keys
+		Move left (decrement parameter in menu): left arrow key
+		Move right (increment parameter in menu): right arrow key
+		Shoot (move up in menu): upper arrow key
+		Move down in menu: lower arrow key
+	2.wasd
+		Move left (decrement parameter in menu): a
+		Move right (increment parameter in menu): d
+		Shoot (move up in menu): w
+		Move down in menu: s
+	3.vi-Mode
+		Move left (decrement parameter in menu): h
+		Move right (increment parameter in menu): l
+		Shoot (move up in menu): k
+		Move down in menu: j
+	Use space to choose the selected button in the menu.
+	You can also shoot with space.
+	To quit in-game you have to press and hold Escape.
+
+Configuration:
+	You can configure the game in-game.
+	The configuration will be saved in the ascii text file .konsole_invaders.conf.
+	Here are the parameter ranges:
+	Height: 20 to 100 (standard 40)
+	Length: 4 to 200 (standard 100)
+	Waves: 1 to 15 (standard 15)
+	Enemy-Columns: 1 to length / 4 or 25 (standard 10)
+	More Life: 1 or 0 (standard 1)
+	If More Life is 1 you will get one life and one rocket more every second wave.
